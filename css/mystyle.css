@@ -1,101 +1,39 @@
-/* css Document*/
-
-@viewport {
-
-zoom: 1.0;
-
-width: extend-to-zoom;
-
-}
-
-@-ms-viewport {
-
-zoom: 1.0;
-
-width: extend-to-zoom;
-
-}
-
-
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/*restore Styling for em ul ol and strong tags*/
-
-ul {
-list-style-type: disc;
-list-style-position: inside;
-}
-ol {
-list-style-type: decimal;
-list-style-position: inside;
-}
-ul ul, ol ul {
-list-style-type: circle;
-list-style-position: inside;
-margin-left: 2em;
-}
-ol ol, ul ol {
-list-style-type: lower-latin;
-list-style-position: inside;
-margin-left: 2em;
-}
-strong {
-font-weight: bold;
-}
-em {
-font-style: italic;
-}
 
 /*mystyles*/
 
+body {
+	background-color: #b3b3b3;
+}
+.container {
+	background-color: #b3b3b3;
+}
 .toplinks11 {
 	padding: 2% 2% 1% 2%;
 	width: 40%;
+}
+
+.aboutussection {
+	background-color: #9cb0d4;
+	color: #222222;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	box-shadow: 10px 10px 15px #524f4f;
+}
+
+.othersection {
+	background-color: #9cb0d4;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	box-shadow: 10px 10px 15px #524f4f;
+}
+
+.padthis {
+	padding: 1.5% 4% 1% 4%;
+	margin-top: 1rem;
+}
+
+.imgsection {
+	background-color: #9cb0d4;
+	margin-top: 7%;
+	box-shadow: 10px 10px 15px #524f4f;
 }
