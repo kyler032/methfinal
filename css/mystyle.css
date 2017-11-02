@@ -37,3 +37,52 @@ body {
 	margin-top: 7%;
 	box-shadow: 10px 10px 15px #524f4f;
 }
+
+.profile {
+	width: 30%;
+	display: block;
+}
+
+.border1 {
+	border-right: 2px grey dotted;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.border2 {
+	border-right: 2px grey dotted;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.border3 {
+	border-right: 2px grey dotted;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.border4 {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.picsection {
+	background-color: #afbdd6;
+}
+
+.p {
+	margin-top: 6%;
+	padding: 3%;
+}
+
+.flex {
+display: flex;
+}
+
+.oursts {
+	width: 100%;
+	padding: 2%;
+	margin: 2%;
+	flex: 1;
+	flex-flow: row nowrap;
+}
